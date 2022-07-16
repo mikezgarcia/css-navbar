@@ -123,9 +123,16 @@ input:active{
 }
 .btn-search:hover{
     background-color: #f05b3d;
+    
 }
 .btn-cart{
     background-color: #ee4d2d;
+    border-radius: 3px;
+    border: none;
+    width: 75px;
+    height: 40px;
+    /* border: 2px solid white; */
+    margin: 20px 0 0 30px;
 }
 .btn-cart:hover{
     background-color: #f05b3d;
@@ -134,5 +141,9 @@ input:active{
 .img-logo{
     margin: 20px 0 0 30px;
 }
-
+.img-cart{
+    
+    width: 36px;
+    height: 36px;
+}
 
