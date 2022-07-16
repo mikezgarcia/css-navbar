@@ -97,6 +97,7 @@ input{
     height: 5vh;
     border: none;
     border-radius: 3px;
+    /* margin: 5px; */
 }
 input:active{
     /* border: none; */
