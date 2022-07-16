@@ -5,6 +5,7 @@
     font-family: Roboto, Helvetica Neue, Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: whitesmoke;
+    /* display: block; */
 }
 header{
     background-color: #ee4d2d;
@@ -39,13 +40,50 @@ header{
     height: 100%;
     float: left;
 }
+.nav-search{
+    height: 20vh;
+    width: 100%;
+    float: left;
+    position: inherit;
+    background-color: blue;
+
+}
+.nav-search-left{
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+.nav-search-center{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: yellow;
+}
+.nav-search-right{
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.searchbar-container{
+    float: left;
+}
 .nav-sm{
     float: left;
 }
 li{
     display: inline;
+    font-size: small;
+    font-weight: lighter;
 }
 ul{
     display: inline;
+   
 }
+a{
+    font-size: small;
+    font-weight: lighter;
+   
+}
+
 
