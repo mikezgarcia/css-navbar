@@ -1,8 +1,10 @@
 *{
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: Roboto, Helvetica Neue, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
 }
 header{
     background-color: #ee4d2d;
@@ -11,4 +13,39 @@ header{
 }
 .nav-upper{
     margin: 0px;
+    height: 5vh;
+    width: 100%;
+    float: left;
 }
+.nav-container{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-left-contents{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.nav-center-contents{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.nav-right-contents{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.nav-sm{
+    float: left;
+}
+li{
+    display: inline;
+}
+ul{
+    display: inline;
+}
+
