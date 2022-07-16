@@ -45,7 +45,7 @@ header{
     width: 100%;
     float: left;
     position: inherit;
-    background-color: blue;
+    /* background-color: blue; */
 
 }
 .nav-search-left{
@@ -57,15 +57,21 @@ header{
     float: left;
     width: 70%;
     height: 100%;
-    background-color: yellow;
+   
+    /* background-color: yellow; */
 }
 .nav-search-right{
     float: left;
     width: 15%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .searchbar-container{
+    /* padding: 1vh; */
+    background-color: #fff;
+    border-radius: 3px;
+}
+.searchbar-container+ul{
     float: left;
 }
 .nav-sm{
@@ -85,5 +91,24 @@ a{
     font-weight: lighter;
    
 }
-
+input{
+    background: #fff;
+    width: 91%;
+    height: 5vh;
+    border: none;
+    border-radius: 3px;
+}
+input:active{
+    /* border: none; */
+    border: #fff;
+}
+button{
+    background-color: #ee4d2d;
+    border: none;
+    border-radius: 3px;
+    height: 4vh;
+    width: 8vh;
+    /* padding: 7px; */
+    /* margin: 2px; */
+}
 
